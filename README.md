@@ -3,12 +3,14 @@ Image Classification with Streamlit
 This project is a web application built using Streamlit that allows users to upload an image and classify it using the MobileNetV2 model, which is pre-trained on the ImageNet dataset. The app includes features such as setting a confidence threshold, displaying the most probable prediction, and visualizing the confidence levels of predictions.
 
 Features
+
 Image Upload: Users can upload an image in JPG, JPEG, or PNG format.
 Image Classification: The app uses the MobileNetV2 model to classify the uploaded image.
 Confidence Threshold: Users can adjust the confidence threshold to filter predictions.
 Visualization: The app visualizes the confidence levels of the bottom 5 predictions using a horizontal bar chart.
 
 Requirements
+
 To run this application, you need the following Python libraries:
 
 streamlit: For building the web application.
@@ -18,12 +20,14 @@ numpy: For handling numerical operations.
 matplotlib: For creating visualizations.
 
 How It Works
+
 Upload an Image: The uploaded image is resized and processed.
 Classify: Predictions are made using MobileNetV2.
 Filter: Predictions are filtered by the selected confidence threshold.
 Display: The most probable prediction is shown, and confidence levels are visualized.
 
 App Components
+
 Title: The app's title, "Image Classification with Streamlit", is displayed at the top.
 
 Sidebar: A sidebar is provided for users to adjust model parameters, specifically the confidence threshold for filtering predictions.
