@@ -1,3 +1,6 @@
+line to the streamlit application
+https://app-app-vzwsuwlkubq4mqzxra2mmg.streamlit.app/
+
 Image Classification with Streamlit
 
 This project is a web application built using Streamlit that allows users to upload an image and classify it using the MobileNetV2 model, which is pre-trained on the ImageNet dataset. The app includes features such as setting a confidence threshold, displaying the most probable prediction, and visualizing the confidence levels of predictions.
